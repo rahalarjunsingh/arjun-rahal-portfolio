@@ -1,0 +1,174 @@
+ 
+ 
+Contact
+8378085788 (Mobile)
+rahalarjunsingh@gmail.com
+www.linkedin.com/in/arjunrahal
+(LinkedIn)
+Top Skills
+MongoDB
+Unit Testing (NUnit/xUnit)
+CI/CD Pipeline
+Languages
+Hindi (Native or Bilingual)
+English (Professional Working)
+Certifications
+AWS Academy Cloud Foundations
+Docker Certification
+ASP.NET Core
+Cisco certified Programming
+Essentials in Python
+SQL : The Programming  of
+Database
+Honors-Awards
+Winning A WebDevlopment
+Competition
+Color Coat in Wrestling
+Internal Smart India Hackathon
+victory
+Arjun singh Rahal
+Software Engineer | E-commerce Platform Development | .NET Core
+• React • Python | Building Artifi & Znode Products
+Mumbai, Maharashtra, India
+Summary
+I build scalable e-commerce platforms that handle thousands
+of transactions.Currently an Associate Software Engineer at
+Amla Commerce, where I develop features for Artifi and Znode
+—enterprise-grade e-commerce solutions used by businesses
+worldwide. I work across the full stack: .NET Core backends,
+React frontends, database optimization, and cloud deployment.My
+journey into software engineering started with curiosity. During
+college at Sipna College of Engineering, I wasn't satisfied just
+attending lectures—I wanted to build. So I did:→ Completed 4
+internships across different tech domains (Python, data science,
+web development, full stack)→ Built 15+ projects including a hands-
+free virtual mouse controlled by eye movements→ Went from intern
+to trainee to Associate Software Engineer in 12 months at Amla
+CommerceWhat drives me? Solving real problems with code.
+I love the moment when you finally crack a complex algorithm,
+when your optimization cuts load time in half, or when a feature
+you built goes live and users actually use it. :- Backend: .NET
+Core, ASP.NET, C#, Python, Django, Flask- Frontend: React.js,
+JavaScript, HTML/CSS- Database: SQL, PostgreSQL, MongoDB-
+Cloud &amp; Tools: Docker, Git, RESTful APIs, Microservices-
+Data Science: Machine Learning, TensorFlow, Pandas, NumPy
+'  :Building robust APIs and scalable architectures for high-traffic e-
+commerce platforms. Recently earned certifications in ASP.NET
+Core and Docker to level up my containerization game.' :If you're
+building something interesting in e-commerce, fintech, or SaaS—
+or if you want to talk .NET, React, or software architecture—send
+me a message. Always happy to connect with fellow engineers, tech
+leaders, and problem-solvers. Available for interesting conversations,
+collaborations, and opportunities.
+Experience
+ 
+Page 1 of 4
+ 
+ 
+Amla Commerce (Creator of Artifi and Znode)
+2 years 9 months
+Associate Software Engineer
+January 2025 - Present (1 year 9 months)
+Associate Software Engineer
+Amla Commerce (Creator of Artifi and Znode)
+Jan 2025 - Present  | On-site
+- Developing full-stack features for Artifi and Znode e-commerce platforms
+serving 500+ enterprise clients
+- Built and optimized RESTful APIs using .NET Core 8, reducing API response
+time by 35%
+- Implemented React components for product customization modules,
+improving user engagement by 20%
+- Collaborate with cross-functional teams to deliver scalable microservices
+architecture
+- Participate in code reviews and mentor junior developers on best practices
+Trainee software engineer
+July 2024 - Present (2 years 3 months)
+Nagpur
+Trainee Software Engineer
+Amla Commerce (Creator of Artifi and Znode)
+Jul 2024 - Dec 2024 (6 months)
+- Transitioned from intern to trainee role, taking ownership of production
+feature development
+- Developed 10+ API endpoints for inventory management system using
+ASP.NET Core and Entity Framework
+- Built dynamic UI components in React.js for admin dashboard, reducing
+manual processing time by 40%
+- Fixed 50+ bugs and improved code quality through unit testing (NUnit) and
+integration testing
+- Containerized applications using Docker, streamlining deployment process
+across dev and staging environments
+Intern
+January 2024 - July 2024 (7 months)
+Nagpur
+Intern
+Amla Commerce (Creator of Artifi and Znode)
+ 
+Page 2 of 4
+ 
+ 
+Jan 2024 - Jul 2024 (7 months) | Nagpur, Maharashtra, India
+- Selected for 6-month internship working on enterprise e-commerce platforms
+(Artifi & Znode)
+- Contributed to backend development using .NET Core, implementing CRUD
+operations for product catalog features
+- Assisted in database optimization tasks, improving query performance by
+25%
+- Learned agile development practices, participating in daily standups and
+sprint planning
+- Earned promotion to Trainee Software Engineer based on performance and
+contributions
+Cognifyz Technologies
+Python Developer Intern
+December 2023 - January 2024 (2 months)
+Python Developer Intern
+Cognifyz Technologies (Remote)
+Dec 2023 - Jan 2024 (2 months)
+- Developed REST APIs using Flask framework for internal automation tools
+- Built database schemas and implemented CRUD operations using
+PostgreSQL and SQLAlchemy ORM
+- Created Python scripts to automate data processing workflows, saving 5+
+hours/week of manual work
+- Gained hands-on experience with Git version control and collaborative coding
+in an agile team environment
+Oasis Infobyte
+Data Science Intern
+August 2023 - September 2023 (2 months)
+Data Science Intern
+Oasis Infobyte (Remote)
+Aug 2023 - Sep 2023 (2 months)
+- Built machine learning models to predict customer behavior with 82%
+accuracy using Python, Scikit-Learn, and Pandas
+- Performed exploratory data analysis (EDA) on datasets with 10,000+ records,
+identifying key patterns and trends
+ 
+Page 3 of 4
+ 
+ 
+- Developed a Titanic survival prediction model using classification algorithms
+(Logistic Regression, Random Forest)
+- Created data visualizations using Matplotlib and Seaborn to communicate
+insights to non-technical stakeholders
+ICEICO Technologies Pvt. Ltd.
+Web Development Intern
+June 2023 - August 2023 (3 months)
+Nagpur
+Web Development Intern
+ICEICO Technologies (On-site)
+Jun 2023 - Aug 2023 (3 months) | Nagpur, Maharashtra, India
+- Developed responsive web interfaces using React.js, HTML5, CSS3, and
+JavaScript
+- Implemented 5+ reusable UI components for client projects, reducing
+development time by 30%
+- Integrated frontend with backend APIs, handling asynchronous data fetching
+and state management
+- Collaborated with designers to translate Figma mockups into pixel-perfect
+React components
+Education
+Sipna College of Engineering & Technology, Amravati
+Bachelor of Engineering - BE, Computer Engineering · (February 2020 - July
+2024)
+Sant Gadge Baba Amravati University, Amravati
+Bachelor of Engineering - BE, Computer  Science & Engineering · (February
+2020 - February 2024)
+ 
+Page 4 of 4

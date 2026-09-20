@@ -1,0 +1,372 @@
+{
+  "version": 1,
+  "projectName": "arjun-portfolio",
+  "initialized": true,
+  "totalAdaptations": 0,
+  "driftScore": 0,
+  "hallucinationCount": 0,
+  "trend": "stable",
+  "items": [
+    {
+      "id": "anti-hallucination-guard",
+      "kind": "rule",
+      "name": "Anti-Hallucination Guard",
+      "description": "Prevents AI from inventing APIs, packages, or code that does not exist in this React + javascript + node project",
+      "content": "---\ndescription: Anti-Hallucination Guard — prevents AI from inventing code\nalwaysApply: true\npriority: 100\n---\n\n# Anti-Hallucination Guard\n\n## Core Principle\nNEVER invent, fabricate, or hallucinate code that does not exist in this codebase.\nBefore generating ANY code, verify against the truthpack and project structure.\n\n## Project Stack\n- **Framework**: React v18\n- **Language**: javascript\n- **Runtime**: node\n- **Package Manager**: unknown (`npm install`)\n\n\n## Verified API Routes (0 total)\n- No routes detected yet — run a scan\n\n\n## Verified Environment Variables (0 total)\n- No env vars detected yet\n\n## Verification Protocol\n1. **Imports**: Every import MUST resolve to a real module in node_modules or the project\n2. **APIs**: Every API call MUST match a verified route above\n3. **Types**: Every type MUST exist in the codebase — no invented interfaces\n4. **Packages**: Every package MUST be in package.json — use `npm install` to add new ones\n5. **Functions**: Every function call MUST reference an existing function\n\n\n## When Uncertain\nSay: \"I couldn't verify [X] exists. Should I create it or check the codebase?\"\nNEVER silently invent something.\n\n## Response Protocol\nSee MANDATORY RESPONSE PROTOCOL at the top of this file — badge + task tracking required on every response.\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.587Z",
+      "updatedAt": "2026-09-20T11:48:10.587Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    },
+    {
+      "id": "drift-watcher",
+      "kind": "rule",
+      "name": "Drift Watcher",
+      "description": "Detects and prevents AI drift — keeps generated code consistent with React + javascript + node patterns",
+      "content": "---\ndescription: Drift Watcher — prevents AI from diverging from project patterns\nalwaysApply: true\npriority: 95\n---\n\n# Drift Watcher\n\n## What is AI Drift?\nAI drift occurs when generated code slowly diverges from your project's established patterns,\nnaming conventions, architecture, and style — eventually creating an inconsistent codebase.\n\n## Auth Patterns to Follow (0 rules)\n- No auth rules detected — will learn from scans\n\n## API Contract Compliance (0 contracts)\n- No contracts detected yet\n\n\n\n## Project Structure Convention\n- Source code lives in `src/`\n\n\n## Drift Prevention Rules\n1. **Naming**: Match existing naming conventions (check neighboring files)\n2. **Patterns**: Use the same patterns as existing code (hooks, services, utils)\n3. **Imports**: Import from the same locations as other files in the same directory\n4. **Error Handling**: Use the same error handling pattern as the rest of the codebase\n5. **State Management**: Use the same state management approach — don't mix libraries\n6. **Styling**: Follow existing CSS patterns\n\n## Self-Check Before Committing\n- Does this code look like it belongs in this codebase?\n- Would a reviewer think a different developer wrote this vs the rest?\n- Am I introducing a new pattern when an existing one would work?\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.587Z",
+      "updatedAt": "2026-09-20T11:48:10.587Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    },
+    {
+      "id": "truthpack-enforcer",
+      "kind": "rule",
+      "name": "Truthpack Enforcer",
+      "description": "Enforces that all generated code aligns with the verified truthpack ground truth",
+      "content": "---\ndescription: Truthpack Enforcer — all code must align with verified ground truth\nalwaysApply: true\npriority: 90\n---\n\n# Truthpack Enforcer\n\n## Ground Truth Source\nThe truthpack at `.vibecheck/truthpack/` is the single source of truth for this project.\nIt contains verified routes, env vars, auth rules, and API contracts extracted from actual code.\n\n## Enforcement Rules\n1. **Route Creation**: New API routes must follow the pattern of existing routes\n2. **Env Vars**: Never reference env vars that aren't in the truthpack or .env.example\n3. **Auth**: Protected routes must use the same auth middleware as existing protected routes\n4. **Schemas**: API request/response shapes must match existing contract patterns\n\n## On Conflict\nIf your code conflicts with the truthpack:\n- The truthpack is RIGHT, your code is WRONG\n- Re-scan with `vibecheck scan` if you believe the truthpack is outdated\n- Never silently override truthpack-verified patterns\n\n## Auto-Update\nThis rule evolves automatically as the truthpack changes.\nCurrent truthpack hash: `unknown`\nLast generated: unknown\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.587Z",
+      "updatedAt": "2026-09-20T11:48:10.587Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    },
+    {
+      "id": "stack-patterns",
+      "kind": "rule",
+      "name": "React Stack Patterns",
+      "description": "Project-specific patterns and conventions for React + javascript + node",
+      "content": "---\ndescription: React Stack Patterns — project-specific conventions\nalwaysApply: true\npriority: 85\n---\n\n# React Stack Patterns\n\n## Project Identity\n- **Name**: arjun-portfolio\n- **Stack**: React + javascript + node\n- **Maturity**: new (5% score)\n- **Structure**: hybrid (16 files, 17 dirs)\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.587Z",
+      "updatedAt": "2026-09-20T11:48:10.587Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    },
+    {
+      "id": "security-sentinel",
+      "kind": "subagent",
+      "name": "Security Sentinel",
+      "description": "Autonomous security reviewer specialized for React projects",
+      "content": "# Security Sentinel Agent\n\n## Role\nYou are a principal-level security engineer embedded in this React codebase.\nYour job is to catch security vulnerabilities BEFORE they reach production.\n\n## Capabilities\n- Credential leak detection (API keys, tokens, passwords in code)\n- SQL/NoSQL injection pattern recognition\n- XSS and CSRF vulnerability detection\n- Authentication bypass detection\n- Authorization escalation detection\n- Dependency vulnerability awareness\n\n\n\n## Project-Specific Context\n- No auth system detected — flag any unprotected endpoints that handle sensitive data\n- No routes detected yet\n- No auth middleware — each route must handle its own auth\n\n\n\n## React-Specific Checks\n\n\n\n## Output Format\n```\nSEVERITY: critical|high|medium|low\nFINDING: [description]\nFILE: [path]\nFIX: [specific fix instruction]\n```\n\n## Escalation\n- Critical findings: BLOCK the change\n- High findings: WARN with specific fix\n- Medium/Low: LOG for review\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.587Z",
+      "updatedAt": "2026-09-20T11:48:10.587Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    },
+    {
+      "id": "quality-enforcer",
+      "kind": "subagent",
+      "name": "Quality Enforcer",
+      "description": "Catches fake success patterns and code quality issues in React projects",
+      "content": "# Quality Enforcer Agent\n\n## Role\nYou are a senior code quality engineer for this React project.\nYour mission is to prevent \"looks good but isn't\" code — fake success patterns,\nswallowed errors, dead code, and quality anti-patterns.\n\n## Detection Patterns\n\n### Fake Success (CRITICAL)\n- Empty catch blocks that silently swallow errors\n- Functions that always return true/success regardless of input\n- Try/catch that catches and ignores without logging\n- API handlers that return 200 for everything\n\n\n### Dead Code\n- Unreachable code after return/throw\n- Unused imports and variables\n- Functions that are never called\n\n### Anti-Patterns for React\n\n\n\n- God functions (>50 lines)\n- Deep nesting (>4 levels)\n- Magic numbers without constants\n\n## Project Context\n- No contracts yet — be extra vigilant about response shapes\n- 6 dependencies tracked\n- Project maturity: new (5%)\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.587Z",
+      "updatedAt": "2026-09-20T11:48:10.587Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    },
+    {
+      "id": "architecture-oracle",
+      "kind": "subagent",
+      "name": "Architecture Oracle",
+      "description": "Maintains architectural consistency for this hybrid-structured React project",
+      "content": "# Architecture Oracle Agent\n\n## Role\nYou are the chief architect of this React codebase. You maintain structural consistency\nand prevent architectural drift — when new code breaks established patterns.\n\n## Project Architecture\n- **Structure**: hybrid\n- **Top-level dirs**: src, workflows\n- **Files**: 16 files across 17 directories\n\n\n### API Layer (0 routes)\n- Not yet mapped\n\n### Data Layer\n- No database detected\n\n### Environment (0 vars)\n- None detected\n\n## Anti-Drift Rules\n1. Don't create a new utility when one exists — search first\n2. Don't introduce a new state management library\n3. Don't change the project's error handling pattern\n4. Don't create circular dependencies\n5. Don't bypass the service layer for direct DB access\n\n\n\n## When Reviewing\nAsk: \"Does this change make the architecture MORE or LESS consistent?\"\nIf LESS → suggest the consistent alternative.\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.587Z",
+      "updatedAt": "2026-09-20T11:48:10.587Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    },
+    {
+      "id": "truthpack-lookup",
+      "kind": "skill",
+      "name": "Truthpack Lookup",
+      "description": "Skill to query the truthpack for verified project facts before generating code",
+      "content": "# Truthpack Lookup Skill\n\n## When to Use\nActivate this skill BEFORE generating any code that:\n- Creates or modifies API routes\n- References environment variables\n- Touches authentication/authorization\n- Modifies API request/response shapes\n\n## Instructions\n1. Read `.vibecheck/truthpack/routes.json` for verified API routes\n2. Read `.vibecheck/truthpack/env.json` for verified environment variables\n3. Read `.vibecheck/truthpack/auth.json` for verified auth rules\n4. Read `.vibecheck/truthpack/contracts.json` for verified API contracts\n5. Cross-reference your planned changes against these files\n6. If your change conflicts with the truthpack, STOP and ask the user\n\n## Quick Reference\n- Routes: 0 verified\n- Env vars: 0 verified\n- Auth rules: 0 verified\n- Contracts: 0 verified\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.588Z",
+      "updatedAt": "2026-09-20T11:48:10.588Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    },
+    {
+      "id": "error-pattern-analysis",
+      "kind": "skill",
+      "name": "Error Pattern Analysis",
+      "description": "Skill to analyze and fix errors in React projects",
+      "content": "# Error Pattern Analysis Skill\n\n## When to Use\nActivate when a user reports a bug, tests fail, or build errors occur.\n\n## React-Specific Error Patterns\n\n\n\n\n## Root Cause Protocol\n1. Collect full error message and stack trace\n2. Pattern match against known errors above\n3. Identify root cause, not just symptom\n4. Propose minimal fix\n5. Suggest a regression test\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.588Z",
+      "updatedAt": "2026-09-20T11:48:10.588Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    },
+    {
+      "id": "codebase-navigation",
+      "kind": "skill",
+      "name": "Codebase Navigation",
+      "description": "Skill to navigate the hybrid-structured React codebase",
+      "content": "# Codebase Navigation Skill\n\n## Project Map\n### Structure: hybrid\nTop-level directories: `src/`, `workflows/`\n\n\n### API Entry Points\n- Run a scan to map routes\n\n### Key Configuration\n- Package manager: `unknown`\n\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.588Z",
+      "updatedAt": "2026-09-20T11:48:10.588Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    },
+    {
+      "id": "stack-recipes",
+      "kind": "skill",
+      "name": "React Recipes",
+      "description": "Common recipes and patterns for React + CSS",
+      "content": "# React Recipes\n\n\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.588Z",
+      "updatedAt": "2026-09-20T11:48:10.588Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    },
+    {
+      "id": "pre-save-guardian",
+      "kind": "hook",
+      "name": "Pre-Save Guardian",
+      "description": "Validates every file save against truthpack and project rules",
+      "content": "# Pre-Save Guardian Hook\n\n## Trigger\nFires on every file save in the workspace.\n\n## Checks\n1. **Import Validation**: Verify all imports resolve to real modules\n2. **Env Var Check**: Flag any hardcoded secrets or unknown env vars\n3. **Pattern Compliance**: Ensure code follows established patterns\n4. **Type Safety**: Flag any `as any` or type assertion abuse\n\n\n\n## Blocking Conditions\n- Hardcoded API keys or secrets → BLOCK\n- Import of non-existent module → WARN\n- New env var not in .env.example → WARN\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.588Z",
+      "updatedAt": "2026-09-20T11:48:10.588Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    },
+    {
+      "id": "post-scan-adapter",
+      "kind": "hook",
+      "name": "Post-Scan Adapter",
+      "description": "After every scan, adapts rules and agents based on findings",
+      "content": "# Post-Scan Adapter Hook\n\n## Trigger\nFires after every `vibecheck scan` completes.\n\n## Actions\n1. Read scan results and parse by category/severity\n2. Feed findings to the Context Engine adaptive learning system\n3. Evolve rules with new patterns from findings\n4. Give agents new threat intel\n5. Recalculate drift score\n6. Re-write context to all configured IDEs\n\n## Adaptation Logic\n- 3+ hallucinations → tighten anti-hallucination rule\n- 3+ drift events → add specific drift patterns to watcher\n- Any critical security → escalate security sentinel\n- Recurring pattern → create new targeted rule\n\n## IDE Targets\nCurrently writing to: cursor, claude, copilot\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.588Z",
+      "updatedAt": "2026-09-20T11:48:10.588Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    },
+    {
+      "id": "truthpack-sync",
+      "kind": "hook",
+      "name": "Truthpack Sync",
+      "description": "Keeps context items in sync when the truthpack changes",
+      "content": "# Truthpack Sync Hook\n\n## Trigger\nFires when any file in `.vibecheck/truthpack/` changes.\n\n## Actions\n1. Compare new truthpack hash with stored hash\n2. Identify new/removed/changed routes, env vars, auth rules\n3. Update rules with fresh route/env lists\n4. Give agents updated project context\n5. Refresh skills quick-reference data\n6. Re-analyze project if major changes detected\n7. Re-write context to Cursor, Windsurf, Claude, Copilot, Verdent, Cline\n\n## Change Types\n- **New route** → Update anti-hallucination guard route list\n- **Route removed** → Flag as potential breaking change\n- **New env var** → Update truthpack enforcer\n- **Auth change** → Alert security sentinel\n- **Contract change** → Update drift watcher\n\n---\n<!-- vibecheck:context-engine:v2 -->",
+      "version": 1,
+      "createdAt": "2026-09-20T11:48:10.588Z",
+      "updatedAt": "2026-09-20T11:48:10.588Z",
+      "trigger": "kickoff",
+      "adaptations": []
+    }
+  ],
+  "scanHistory": [],
+  "kickoffAt": "2026-09-20T11:48:10.587Z",
+  "fingerprint": {
+    "name": "arjun-portfolio",
+    "root": "d:\\portfolio",
+    "language": "javascript",
+    "framework": {
+      "name": "React",
+      "version": "18",
+      "ssr": false,
+      "api": false
+    },
+    "runtime": "node",
+    "packageManager": "unknown",
+    "monorepo": null,
+    "styling": {
+      "primary": "CSS",
+      "libraries": [],
+      "hasDesignSystem": false
+    },
+    "stateManagement": [],
+    "database": [],
+    "auth": {
+      "strategy": [],
+      "hasMiddleware": false,
+      "hasRBAC": false
+    },
+    "testing": {
+      "framework": [],
+      "hasE2E": false,
+      "hasUnit": false,
+      "hasIntegration": false,
+      "coverageConfigured": false
+    },
+    "deployment": {
+      "targets": [],
+      "hasDocker": false,
+      "hasServerless": false,
+      "hasEdge": false
+    },
+    "ci": {
+      "hasLinting": false,
+      "hasTesting": false,
+      "hasDeployment": false
+    },
+    "structure": {
+      "type": "hybrid",
+      "srcDir": true,
+      "appDir": false,
+      "pagesDir": false,
+      "apiDir": false,
+      "libDir": false,
+      "topLevelDirs": [
+        "src",
+        "workflows"
+      ],
+      "totalFiles": 16,
+      "totalDirs": 17
+    },
+    "dependencies": {
+      "production": [
+        "react",
+        "react-dom"
+      ],
+      "dev": [
+        "@types/react",
+        "@types/react-dom",
+        "@vitejs/plugin-react",
+        "vite"
+      ],
+      "total": 6,
+      "notable": [
+        {
+          "name": "react",
+          "category": "framework",
+          "version": "^18.3.1"
+        }
+      ]
+    },
+    "patterns": [],
+    "maturity": {
+      "overall": 5,
+      "codeAge": "new",
+      "signals": [
+        {
+          "name": "Test framework",
+          "present": false,
+          "weight": 15
+        },
+        {
+          "name": "E2E tests",
+          "present": false,
+          "weight": 10
+        },
+        {
+          "name": "CI/CD pipeline",
+          "present": false,
+          "weight": 10
+        },
+        {
+          "name": "CI tests",
+          "present": false,
+          "weight": 8
+        },
+        {
+          "name": "Database + ORM",
+          "present": false,
+          "weight": 8
+        },
+        {
+          "name": "DB migrations",
+          "present": false,
+          "weight": 5
+        },
+        {
+          "name": "Auth system",
+          "present": false,
+          "weight": 8
+        },
+        {
+          "name": "ESLint",
+          "present": false,
+          "weight": 5
+        },
+        {
+          "name": "Prettier",
+          "present": false,
+          "weight": 3
+        },
+        {
+          "name": "Lockfile",
+          "present": false,
+          "weight": 3
+        },
+        {
+          "name": "README",
+          "present": false,
+          "weight": 3
+        },
+        {
+          "name": ".env.example",
+          "present": false,
+          "weight": 5
+        },
+        {
+          "name": ".gitignore",
+          "present": false,
+          "weight": 2
+        },
+        {
+          "name": "Structured dirs",
+          "present": true,
+          "weight": 5
+        },
+        {
+          "name": "50+ files",
+          "present": false,
+          "weight": 5
+        },
+        {
+          "name": "License",
+          "present": false,
+          "weight": 3
+        },
+        {
+          "name": "Coverage config",
+          "present": false,
+          "weight": 5
+        }
+      ]
+    },
+    "analysedAt": "2026-09-20T11:48:10.587Z"
+  },
+  "ideTargets": [
+    "cursor",
+    "claude",
+    "copilot"
+  ],
+  "ideWriteResults": [
+    {
+      "target": "cursor",
+      "filesWritten": 17
+    },
+    {
+      "target": "claude",
+      "filesWritten": 6
+    },
+    {
+      "target": "copilot",
+      "filesWritten": 1
+    }
+  ],
+  "checksum": "c5b70206edebf633"
+}

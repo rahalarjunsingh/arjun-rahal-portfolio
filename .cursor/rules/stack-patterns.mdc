@@ -1,0 +1,15 @@
+---
+description: Project-specific patterns and conventions for React + javascript + node
+alwaysApply: true
+---
+
+# React Stack Patterns
+
+## Project Identity
+- **Name**: arjun-portfolio
+- **Stack**: React + javascript + node
+- **Maturity**: new (5% score)
+- **Structure**: hybrid (16 files, 17 dirs)
+
+---
+<!-- vibecheck:context-engine:v2 -->

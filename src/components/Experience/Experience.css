@@ -1,0 +1,150 @@
+.serif-accent {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.exp__timeline {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.exp__company-header {
+  margin-bottom: 8px;
+}
+
+.exp__company-name {
+  font-size: clamp(22px, 3vw, 28px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.exp__company-note {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 2px;
+  display: block;
+}
+
+.exp__role {
+  padding: 24px 0 24px 32px;
+  border-left: 1px solid var(--border);
+  position: relative;
+  transition: border-color var(--duration-medium) var(--ease-out);
+}
+
+.exp__role:hover {
+  border-left-color: var(--accent);
+}
+
+.exp__role:last-child {
+  padding-bottom: 0;
+}
+
+.exp__role-meta {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.exp__role-line {
+  position: absolute;
+  left: -6px;
+  top: 30px;
+}
+
+.exp__role-dot {
+  display: block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  background-color: var(--bg-primary);
+  transition: border-color var(--duration-fast) var(--ease-out),
+              background-color var(--duration-fast) var(--ease-out);
+}
+
+.exp__role:hover .exp__role-dot {
+  border-color: var(--accent);
+  background-color: var(--accent);
+}
+
+.exp__role-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.exp__role-details {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.exp__role-dates {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.exp__role-location {
+  font-size: 13px;
+  color: var(--text-tertiary);
+}
+
+.exp__role-location::before {
+  content: '·';
+  margin-right: 16px;
+  color: var(--text-tertiary);
+}
+
+.exp__responsibilities {
+  margin-bottom: 16px;
+}
+
+.exp__responsibility {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  padding: 4px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.exp__responsibility::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-size: 13px;
+}
+
+.exp__tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .exp__role {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 430px) {
+  .exp__role {
+    padding-left: 20px;
+  }
+
+  .exp__role-details {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .exp__role-location::before {
+    display: none;
+  }
+}

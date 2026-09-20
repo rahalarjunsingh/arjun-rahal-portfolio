@@ -1,0 +1,70 @@
+.edu__card {
+  display: flex;
+  gap: 28px;
+  padding: 40px;
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  margin-top: 40px;
+  max-width: 640px;
+  transition: border-color var(--duration-medium) var(--ease-out);
+}
+
+.edu__card:hover {
+  border-color: var(--accent);
+}
+
+.edu__icon {
+  font-size: 36px;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.edu__degree {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.edu__university {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 2px;
+}
+
+.edu__college {
+  font-size: 14px;
+  color: var(--text-tertiary);
+  margin-bottom: 14px;
+}
+
+.edu__meta {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.edu__date,
+.edu__cgpa {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  padding: 4px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius-pill);
+}
+
+.edu__cgpa {
+  color: var(--accent);
+  border-color: var(--accent);
+  background-color: var(--accent-soft);
+}
+
+@media (max-width: 480px) {
+  .edu__card {
+    flex-direction: column;
+    gap: 16px;
+    padding: 28px;
+  }
+}

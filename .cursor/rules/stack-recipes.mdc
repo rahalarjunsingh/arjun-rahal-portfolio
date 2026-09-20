@@ -1,0 +1,14 @@
+---
+description: Common recipes and patterns for React + CSS
+globs:
+  - "**/*.ts"
+  - "**/*.tsx"
+alwaysApply: false
+---
+
+# React Recipes
+
+
+
+---
+<!-- vibecheck:context-engine:v2 -->

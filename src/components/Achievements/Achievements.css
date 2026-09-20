@@ -1,0 +1,42 @@
+.achievements__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-top: 48px;
+  max-width: 720px;
+}
+
+.achievement {
+  display: flex;
+  gap: 20px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+  transition: all var(--duration-fast) var(--ease-out);
+}
+
+.achievement:first-child {
+  border-top: 1px solid var(--border);
+}
+
+.achievement:hover {
+  padding-left: 8px;
+}
+
+.achievement__marker {
+  font-size: 16px;
+  color: var(--accent);
+  flex-shrink: 0;
+  line-height: 1.5;
+}
+
+.achievement__title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.achievement__desc {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}

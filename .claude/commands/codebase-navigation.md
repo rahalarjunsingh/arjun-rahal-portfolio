@@ -1,0 +1,18 @@
+# Codebase Navigation
+
+# Codebase Navigation Skill
+
+## Project Map
+### Structure: hybrid
+Top-level directories: `src/`, `workflows/`
+
+
+### API Entry Points
+- Run a scan to map routes
+
+### Key Configuration
+- Package manager: `unknown`
+
+
+---
+<!-- vibecheck:context-engine:v2 -->
